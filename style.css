@@ -1,0 +1,76 @@
+html {
+    background-color: rgb(241, 238, 5);
+    padding: 50px 50px 50px 50px;
+}
+
+.logo {
+    height: 150px;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+footer {
+    text-align: right;
+}
+
+p {
+    font-size: 20px;
+}
+
+.web {
+    color: brown;
+}
+
+.retro {
+    color: brown;
+}
+
+.img0 {
+    height: 200px;
+    width: 300px;
+    float: left;
+    padding-right: 40px;
+}
+.divd {
+    width: 40%;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.code {
+    color: brown;
+}
+
+@media (max-width: 680px) {
+    .logo {
+        font-size: 80px;
+    }
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .divd {
+        display: block;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .img0 {
+        width: 100%;
+        display: block;
+        object-fit: fill;
+    }
+}
